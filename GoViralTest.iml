@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="GoViralTest">
+    <configurations>
+      <configuration name="GoViralTest" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/GoViralTest">
+        <dependencies target-player="23.0">
+          <entries>
+            <entry library-id="5cde7d4c-4878-4ff2-b09b-0648b14622a5">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="05882f56-2f1a-4c61-9318-ffb26f75901d">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air-sdk-23" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/GoViral-app.xml" package-file-name="Main" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/GoViral-app.xml" package-file-name="Main">
+          <AirSigningOptions sdk="$MODULE_DIR$/../../../../SDKS/iPhoneOS.9.3.sdk" keystore-path="$MODULE_DIR$/../IOSTest/cert/Testflight.p12" provisioning-profile-path="$MODULE_DIR$/../IOSTest/cert/VideoTest.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air-sdk-23" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="5cde7d4c-4878-4ff2-b09b-0648b14622a5" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="05882f56-2f1a-4c61-9318-ffb26f75901d" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.milkmangames.extensions.GoViral.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
