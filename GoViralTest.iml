@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="GoViralTest">
     <configurations>
-      <configuration name="GoViralTest" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/GoViralTest">
+      <configuration name="GoViralTest" target-platform="Mobile" pure-as="true" main-class="Main" output-file="GoViral-Test.swf" output-folder="$MODULE_DIR$/build">
         <dependencies target-player="23.0">
           <entries>
             <entry library-id="5cde7d4c-4878-4ff2-b09b-0648b14622a5">
